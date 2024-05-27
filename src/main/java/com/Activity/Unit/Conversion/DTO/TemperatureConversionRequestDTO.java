@@ -3,4 +3,5 @@ import lombok.Data;
 @Data
 public class TemperatureConversionRequestDTO {
     private double celsius;
+    private double fahrenheit;
 }
