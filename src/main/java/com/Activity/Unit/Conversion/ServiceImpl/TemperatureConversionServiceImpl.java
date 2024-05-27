@@ -14,6 +14,7 @@ public class TemperatureConversionServiceImpl implements TemperatureConversionSe
             throw e;
         }
     }
+
     @Override
     public double fahrenheitToCelsius(double fahrenheit) {
         try {
